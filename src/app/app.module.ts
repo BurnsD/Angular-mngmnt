@@ -12,7 +12,8 @@ import { FiltersComponent } from './shopping-cart/filters/filters.component';
 import { ProductListComponent } from './shopping-cart/product-list/product-list.component';
 import { CartComponent } from './shopping-cart/cart/cart.component';
 import { CartItemComponent } from './shopping-cart/cart/cart-item/cart-item.component';
-import { ProductItemComponent } from './shopping-cart/cart/product-list/product-item/product-item.component';
+import { ProductItemComponent } from './shopping-cart/product-list/product-item/product-item.component';
+
 
 
 @NgModule({
@@ -27,7 +28,7 @@ import { ProductItemComponent } from './shopping-cart/cart/product-list/product-
     ProductListComponent,
     CartComponent,
     CartItemComponent,
-    ProductItemComponent,
+    ProductItemComponent
   ],
   imports: [
     BrowserModule, 
