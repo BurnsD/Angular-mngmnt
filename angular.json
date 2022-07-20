@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "employee-management-system": {
+    "angularDemo": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/employee-management-system",
+            "outputPath": "dist/angular-demo",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "employee-management-system:build:production"
+              "browserTarget": "angularDemo:build:production"
             },
             "development": {
-              "browserTarget": "employee-management-system:build:development"
+              "browserTarget": "angularDemo:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "employee-management-system:build"
+            "browserTarget": "angularDemo:build"
           }
         },
         "test": {
@@ -99,6 +99,6 @@
     }
   },
   "cli": {
-    "analytics": "62dc899b-c79a-4f6c-92bf-e9f862bf4342"
+    "analytics": false
   }
 }

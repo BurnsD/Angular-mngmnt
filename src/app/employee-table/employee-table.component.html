@@ -1,0 +1,30 @@
+<h1 class="">{{ title }}</h1>
+<hr />
+<nav>
+  <input
+    class="form-control"
+    type="text"
+    name="employeeName"
+    [(ngModel)]="employeeName"
+    (ngModelChange)="Search()"
+    placeholder="Enter Employee Name"
+  />
+</nav>
+<table class="table table-striped table-hover table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col">Employee Name</th>
+      <th scope="col">Employee Id</th>
+      <th scope="col">Employee Salary</th>
+      <th scope="col">Employee Title</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let employee of employees">
+      <th scope="row">{{ employee.employeeName | titlecase }}</th>
+      <th scope="row">{{ employee.employeeId }}</th>
+      <th scope="row">{{ employee.employeeSalary | currency }}</th>
+      <th scope="row">{{ employee.employeeTitle | uppercase }}</th>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,70 @@
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+            <div *ngFor="let employee of employee1" class="card">
+                <img src="{{employee.employeeImg}}" class="card-img-top" width="300" height="300">
+                <div class="card-body">
+                    <h5 class="card-title">{{employee.employeeName | titlecase}}</h5>
+                    <p class="card-text">ID: {{employee.employeeId}}</p>
+                    <p class="card-text">Title: {{employee.employeeTitle | uppercase}}</p>
+                    <p class="card-text">Salary: {{employee.employeeSalary | currency }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div *ngFor="let employee of employee2" class="card">
+                <img src="{{employee.employeeImg}}" class="card-img-top"  width="300" height="300">
+                <div class="card-body">
+                    <h5 class="card-title">{{employee.employeeName | titlecase}}</h5>
+                    <p class="card-text">ID: {{employee.employeeId}}</p>
+                    <p class="card-text">Title: {{employee.employeeTitle | uppercase}}</p>
+                    <p class="card-text">Salary: {{employee.employeeSalary | currency }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div *ngFor="let employee of employee3" class="card">
+                <img src="{{employee.employeeImg}}" class="card-img-top"  width="300" height="300">
+                <div class="card-body">
+                    <h5 class="card-title">{{employee.employeeName | titlecase}}</h5>
+                    <p class="card-text">ID: {{employee.employeeId}}</p>
+                    <p class="card-text">Title: {{employee.employeeTitle | uppercase}}</p>
+                    <p class="card-text">Salary: {{employee.employeeSalary | currency }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div *ngFor="let employee of employee4" class="card">
+                <img src="{{employee.employeeImg}}" class="card-img-top"  width="300" height="300">
+                <div class="card-body">
+                    <h5 class="card-title">{{employee.employeeName | titlecase}}</h5>
+                    <p class="card-text">ID: {{employee.employeeId}}</p>
+                    <p class="card-text">Title: {{employee.employeeTitle | uppercase}}</p>
+                    <p class="card-text">Salary: {{employee.employeeSalary | currency }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div *ngFor="let employee of employee5" class="card">
+                <img src="{{employee.employeeImg}}" class="card-img-top"  width="300" height="300">
+                <div class="card-body">
+                    <h5 class="card-title">{{employee.employeeName | titlecase}}</h5>
+                    <p class="card-text">ID: {{employee.employeeId}}</p>
+                    <p class="card-text">Title: {{employee.employeeTitle | uppercase}}</p>
+                    <p class="card-text">Salary: {{employee.employeeSalary | currency }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div *ngFor="let employee of employee6" class="card">
+                <img src="{{employee.employeeImg}}" class="card-img-top"  width="300" height="300">
+                <div class="card-body">
+                    <h5 class="card-title">{{employee.employeeName | titlecase}}</h5>
+                    <p class="card-text">ID: {{employee.employeeId}}</p>
+                    <p class="card-text">Title: {{employee.employeeTitle | uppercase}}</p>
+                    <p class="card-text">Salary: {{employee.employeeSalary | currency }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
