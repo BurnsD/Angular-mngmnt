@@ -11,6 +11,8 @@ import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { FiltersComponent } from './shopping-cart/filters/filters.component';
 import { ProductListComponent } from './shopping-cart/product-list/product-list.component';
 import { CartComponent } from './shopping-cart/cart/cart.component';
+import { CartItemComponent } from './shopping-cart/cart/cart-item/cart-item.component';
+import { ProductItemComponent } from './shopping-cart/cart/product-list/product-item/product-item.component';
 
 
 @NgModule({
@@ -24,6 +26,8 @@ import { CartComponent } from './shopping-cart/cart/cart.component';
     FiltersComponent,
     ProductListComponent,
     CartComponent,
+    CartItemComponent,
+    ProductItemComponent,
   ],
   imports: [
     BrowserModule, 
