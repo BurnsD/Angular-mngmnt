@@ -8,6 +8,9 @@ import { LoginFormComponent } from './login-form/login-form.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { SearchComponent } from './search/search.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
+import { FiltersComponent } from './shopping-cart/filters/filters.component';
+import { ProductListComponent } from './shopping-cart/product-list/product-list.component';
+import { CartComponent } from './shopping-cart/cart/cart.component';
 
 
 @NgModule({
@@ -18,6 +21,9 @@ import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
     ProjectsComponent,
     SearchComponent,
     ShoppingCartComponent,
+    FiltersComponent,
+    ProductListComponent,
+    CartComponent,
   ],
   imports: [
     BrowserModule, 
